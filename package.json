@@ -1,0 +1,23 @@
+{
+  "name": "bradleydonahue.me",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack -p"
+  },
+  "keywords": [],
+  "author": "Bradley Donahue <donahue.bradley@gmail.com> (http://bradleydonahue.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.0",
+    "babel-preset-env": "^1.2.1",
+    "css-loader": "^0.27.2",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.13.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  }
+}
